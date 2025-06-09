@@ -99,7 +99,7 @@ class _PaymentPageState extends State<PaymentPage> {
             Text('Total Payment: RM${widget.totalPayment.toStringAsFixed(2)}',
                 style: TextStyle(fontSize: 18)),
             const SizedBox(height: 20),
-            Image.asset('assets/qr.png', width: 200),
+            Image.asset('assets/frame.png', width: 200),
             const SizedBox(height: 20),
             ElevatedButton.icon(
               onPressed: _pickReceipt,
